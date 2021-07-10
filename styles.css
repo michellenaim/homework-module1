@@ -222,7 +222,7 @@ fieldset {
 }
 
 form legend {
-  color: #4977D1;
+  color: #4977d1;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -232,15 +232,18 @@ label {
   margin: 15px 0 0 0;
 }
 
-.textbox label, .commentbox label{
+.textbox label,
+.commentbox label {
   display: block;
 }
 
-.radios, .selectmenu {
+.radios,
+.selectmenu {
   margin: 15px 0 0 2em;
 }
 
-.textbox, .commentbox {
+.textbox,
+.commentbox {
   display: block;
   margin: 15px 0 0 2em;
 }
@@ -262,15 +265,44 @@ select {
   text-align-last: center;
 }
 
-input[type="submit"] { 
-  background-color: #4977D1;
+input[type="submit"] {
+  background-color: #4977d1;
   border: none;
   color: white;
-  padding: 15px 32px; 
+  padding: 15px 32px;
   text-align: center;
   font-weight: bold;
-  font-size:large;
+  font-size: large;
   margin: 20px 0 10px 0;
   width: 135px;
   margin-left: 355px;
+}
+
+/* Cliffs */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cliff-name {
+  background: #852b1b;
+  color: white;
+  margin: 0;
+  width: 500px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+.cliff-image {
+  width: 500px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.cliff {
+  margin: 20px;
 }
