@@ -283,6 +283,7 @@ input[type="submit"] {
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .cliff-name {
