@@ -20,6 +20,11 @@ header {
   background-size: cover; /* Similar to my home header because it fits my screen */
 }
 
+#cliffs header {
+  background: no-repeat lightgrey url(images/forest_cliff.jpeg);
+  background-size: cover; /* Similar to my home header because it fits my screen */
+}
+
 .main-header {
   background-color: rgb(255, 255, 255, 0.8);
   width: 700px;
