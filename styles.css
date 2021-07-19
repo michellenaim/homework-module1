@@ -266,7 +266,7 @@ select {
 }
 
 input[type="submit"] {
-  background-color: #4977d1;
+  /* background-color: #4977d1; */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -276,6 +276,23 @@ input[type="submit"] {
   margin: 20px 0 10px 0;
   width: 135px;
   margin-left: 355px;
+}
+
+.randomcode {
+  display: flex;
+  align-items: center;
+}
+
+.randomcode input[type="text"] {
+  width: 155px;
+  margin-left: 200px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+#codes {
+  background: rgb(173, 173, 173);
+  padding: 15px
 }
 
 /* Cliffs */

@@ -8,7 +8,6 @@ var typesOfPartners = ["bustour", "cabinrental", "campingadv", "collegetours", "
 
 for(var i=0; i<6; i++){
   fileNames.push('partner-'+ typesOfPartners[i]);
-  console.log(fileNames)
   photos.push("<img src='images/partners/"+ fileNames[i]+".png'>");
   image = openList + photos[i] + closeList;
   imageList.push(image)
