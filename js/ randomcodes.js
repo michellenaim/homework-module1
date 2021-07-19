@@ -33,4 +33,17 @@ function disableButton(btnvalue) {
     }
 }
 
+var codebox = document.getElementById('codeentered');
+codebox.addEventListener('input', evaluateCode);
+
+function evaluateCode() {
+    getCode = document.getElementById("codeentered").value;
+    var charset1 = getCode.trim();
+    var charset2 = code.trim()
+
+    if (charset1.length == charset2.length && charset1 == charset2) {
+        disableButton(false);
+    }
+}
+
 disableButton();
